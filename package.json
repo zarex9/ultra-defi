@@ -1,0 +1,36 @@
+{
+  "name": "wallet-connect-part",
+  "version": "1.0.0",
+  "description": "Wallet connect part from mortal-fun-story project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@reown/appkit": "^1.8.12",
+    "@reown/appkit-adapter-wagmi": "^1.0.4",
+    "@tanstack/react-query": "^5.90.5",
+    "lucide-react": "^0.462.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "viem": "^2.39.0",
+    "wagmi": "^2.17.5"
+  },
+  "devDependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react-swc": "^3.11.0",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "postcss": "^8.5.6",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vite": "^7.2.2"
+  }
+}
